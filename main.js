@@ -200,8 +200,6 @@ body {
 .ai-pd-container .ai-pd-container__trigger {
   z-index: 99999992;
   position: fixed;
-  // left: 12px;
-  // bottom: 12px;
   left: 16px;
   bottom: 80px;
   display: flex;
@@ -224,6 +222,8 @@ body {
 }
 @media screen and (min-width: 480px) {
   .ai-pd-container .ai-pd-container__trigger {
+    left: 12px;
+    bottom: 12px;
     width: 70px;
     height: 70px;
     padding: 15px;
